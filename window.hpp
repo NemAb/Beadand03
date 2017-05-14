@@ -8,7 +8,8 @@
 
 class Window {
 protected:
-    std::vector<gem*> widgets;
+    table* t;
+    gem* g;
 public:
     virtual void esemeny(std::string mitortent){}
 
